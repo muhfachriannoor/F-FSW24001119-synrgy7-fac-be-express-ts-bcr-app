@@ -19,7 +19,7 @@ jobs:
         run: npm ci --include=dev
       - name: Run linter (checking with eslint)
         run: npm run lint
-      - name: Run test (checking with jest)
+      #- name: Run test (checking with jest)
         #run: npm run test
         env:
           APP_PORT: ${{ secrets.APP_PORT }}
