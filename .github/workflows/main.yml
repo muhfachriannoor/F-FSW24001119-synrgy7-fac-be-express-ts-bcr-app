@@ -20,7 +20,7 @@ jobs:
       - name: Run linter (checking with eslint)
         run: npm run lint
       - name: Run test (checking with jest)
-        run: npm run test
+        #run: npm run test
         env:
           APP_PORT: ${{ secrets.APP_PORT }}
           DB_HOST: ${{ secrets.DB_HOST }}

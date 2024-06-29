@@ -13,7 +13,7 @@
     "compile:type": "tsc",
     "convert:postman": "ts-node-dev --respawn --transpile-only config/convertPostman.ts",
     "lint": "eslint .",
-    "test": "jest --forceExit"
+    "test": "jest --coverage --forceExit"
   },
   "_moduleAliases": {
     "@Controllers": "dist/app/controllers",
