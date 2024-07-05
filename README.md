@@ -10,7 +10,7 @@
 6. Jalankan perintah `npm run database:seed` untuk mengisi data di tabel dengan data seeder
 7. Jalankan perintah `npm run compile:type` untuk mengcompile typescript menjadi javascript
 8. Untuk langkah terakhir jalankan perintah `npm run start` untuk menjalankan program
-9. (optional) jalankan perintah `npm run devType` untuk menjalankan program development
+9. (optional) jalankan perintah `npm run dev:type` untuk menjalankan program development
 
 ### Akun Super Admin
 **Email:** `superadmin@mail.com` **Password:** `superadmin`
